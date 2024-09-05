@@ -1,0 +1,78 @@
+@keyframes shimmer {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-color: #e0e0e0;
+  --glow-color: #4169E1;  /* Electric blue */
+}
+
+body {
+  font-family: Verdana, Tahoma, sans-serif;
+  background: linear-gradient(
+    135deg,
+    #0a0a0a,
+    #1a1a2e,
+    #16213e,
+    #0f3460,
+    #1a1a2e,
+    #0a0a0a
+  );
+  background-size: 400% 400%;
+  animation: shimmer 15s ease infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: var(--text-color);
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+}
+
+h1, h2 {
+  color: var(--text-color);
+  text-shadow: 
+    0 0 4px var(--glow-color),
+    0 0 8px var(--glow-color);
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+}
