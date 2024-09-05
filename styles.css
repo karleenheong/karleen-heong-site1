@@ -22,7 +22,7 @@
 }
 
 body {
-  font-family: Verdana, Tahoma, sans-serif;
+  font-family: sans-serif;
   background: linear-gradient(
     135deg,
     #0a0a0a,
@@ -49,8 +49,8 @@ body {
 h1, h2 {
   color: var(--text-color);
   text-shadow: 
-    0 0 3px var(--glow-color),
-    0 0 6px var(--glow-color);
+    0 0 1px var(--glow-color),
+    0 0 2px var(--glow-color);
 }
 
 h1 {
@@ -59,7 +59,8 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 @media (max-width: 600px) {
