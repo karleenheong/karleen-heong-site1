@@ -44,6 +44,7 @@ body {
 .container {
   text-align: center;
   padding: 2rem;
+  max-width: 100%;
 }
 
 h1, h2 {
@@ -51,11 +52,15 @@ h1, h2 {
   text-shadow: 
     0 0 1px var(--glow-color),
     0 0 2px var(--glow-color);
+  line-height: 1.2;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 h1 {
   font-size: 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 h2 {
@@ -69,11 +74,12 @@ h2 {
   }
 
   h1 {
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
+    font-size: 2.2rem;
+    margin-bottom: 1.2rem;
   }
 
   h2 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 }
