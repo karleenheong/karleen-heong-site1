@@ -1,28 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Karleen Heong</title>
-  <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karleen Heong - Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
 
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QES9TBPFV"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QES9TBPFV"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    gtag('config', 'G-5QES9TBPFV');
-  </script>
-</head>
-<body>
-  <div class="container">
-    <h1>Karleen Heong's Projects</h1>
-    <h2>Coming Soon...</h2>
-    <div>
-      <iframe src="https://embeds.beehiiv.com/54a434e6-1a1a-46b9-b9b3-29f76171d26e" data-test-id="beehiiv-embed" width="100%" height="320" frameborder="0" scrolling="no" style="border-radius: 4px; border: 2px solid #e5e7eb; margin: 0; background-color: transparent;"></iframe>
-    </div>
-  </div>
-</body>
+      gtag('config', 'G-5QES9TBPFV');
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1>Karleen Heong</h1>
+      <p>Online music course instructor, digital nomad, amateur full stack developer</p>
+    </header>
+
+    <main>
+      <section id="current-project">
+        <h2>Current Project: <a href="https://cozyama.com">Cozyama</a></h2>
+        <p>Super-personalized AI accommodation booking platform for digital nomads, focusing on mid-term stays between 1 month and 1 year.</p>
+        <h3>Demo Presentation</h3>
+        <p>Tuesday 29th October 2024. Participant in the Softlanding Startup Program from Manabu Hubs in Fukuoka, Japan, sponsored by Fukuoka City Government. I will present my startup idea for the Cozyama platform.</p>
+      </section>
+      <hr>
+
+      <section id="online-courses">
+        <h2>Music Composition and Production Courses on <a href="https://www.udemy.com/user/karleen-heong/">Udemy</a></h2>
+        <p>Bestseller - Game Music Composition: Make Music For Games From Scratch</p>
+        <p>Orchestration 1: Compose Orchestral Music for Strings</p>
+        <p>Orchestration 2: Compose Orchestral Music for Woodwinds</p>
+        <p>Orchestration 3: Compose Orchestral Music for Brass</p>
+      </section>
+      <hr>
+
+      <section id="course-consulting">
+        <h2>Online Course Consulting</h2>
+        <p>Since December 2016 I have been an online course instructor and know full well the ins and outs of building an online course business. If you are an aspiring course creator or want some help on your online course project, get in touch using the contact form below.</p>
+        <p><em>Current offer: Free 30 minute consultation for your course idea or course audit</em></p>
+      </section>
+      <hr>
+
+      <section id="composition-feedback">
+        <h2>Music Composition Feedback or Classes</h2>
+        <p>I have taught over 35,000 students around the world how to compose and produce music. I can provide feedback for your musical compositions or arrangements up to a certain level. Contact me using the form below if you would like to use this service.</p>
+      </section>
+      <hr>
+
+      <section id="projects">
+        <h2>Ongoing and Upcoming Projects</h2>
+        <ul>
+            <li><b>The Odin Project (80% complete)</b> - Learning full-stack development for the past year so I can create my dream apps and software</li>
+            <li><b>Composer Feedback Platform</b> - Coming soon! A little side project I want to create to help my students get feedback on their work more easily. Join my newsletter to be the first to know about this</li>
+            <li><b>12 startups in 12 months</b> - I want to attempt this challenge, inspired by Pieter Levels, once I complete my fullstack dev study. I will probably spend more months on tougher ideas because each idea varies in complexity and scope. I will announce on my newsletter when I begin this!</li>
+        </ul>
+      </section>
+      <hr>
+
+      <section class="contact-section">
+        <div class="contact-intro">
+          <h2 class="contact-title">Contact Me</h2>
+          <p class="contact-description">
+            For course consulting or music teaching services, fill out the form and I'll get back to you asap.
+          </p>
+        </div>
+
+        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+
+          <input type="hidden" name="access_key" value="799c81a9-496a-4aaf-83d4-ff19367f5e48" />
+          <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
+          <input type="hidden" name="from_name" value="My Website" />
+          <!-- More custom ization options available in the docs: https://docs.web3forms.com -->
+
+          <div class="form-group-container">
+            <div class="form-group">
+              <label for="name" class="form-label">Name</label>
+              <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
+            </div>
+          </div>
+          <button class="form-submit" type="submit">Send Message</button>
+        </form>
+
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="newsletter">
+          <h2>Join K's Newsletter</h2>
+          <p>Stay updated with my new projects, ideas and services</p>
+          <iframe src="https://embeds.beehiiv.com/54a434e6-1a1a-46b9-b9b3-29f76171d26e?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2024 Karleen Heong. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
