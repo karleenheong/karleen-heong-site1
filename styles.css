@@ -119,6 +119,13 @@ footer {
   color: #3498db;
 }
 
+.social-links .custom-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+
 .contact-section {
   width: 100%;
   max-width: 800px;
