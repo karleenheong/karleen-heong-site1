@@ -224,7 +224,6 @@ footer {
   background-color: #2980b9;
 }
 
-/* Add this to your existing CSS */
 section {
   margin-top: 1rem;
   padding-top: 1rem;
@@ -259,6 +258,19 @@ section:last-child {
 .project h3 {
   margin-top: 0;
   color: #2c3e50;
+}
+
+.highlight-project {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+  margin-bottom: 2rem;
+}
+
+#current-projects .project:last-child,
+#upcoming-projects .project:last-child {
+  margin-bottom: 0;
 }
 
 @media (max-width: 600px) {
