@@ -286,3 +286,118 @@ section:last-child {
     gap: 0.5rem;
   }
 }
+
+/* Add these mobile improvements to your existing styles.css */
+
+/* Better mobile spacing and layout */
+@media (max-width: 768px) {
+  header {
+    padding: 2rem 1rem;
+  }
+  
+  header h1 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  header p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+  
+  main {
+    padding: 1.5rem 1rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .project {
+    padding: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .highlight-project {
+    padding: 1.5rem;
+  }
+  
+  #current-projects, 
+  #upcoming-projects,
+  #other-projects {
+    margin-bottom: 1.5rem;
+  }
+  
+  ul {
+    padding-left: 1.25rem;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-section {
+    padding: 0;
+  }
+  
+  .contact-intro {
+    margin-bottom: 1.5rem;
+  }
+  
+  footer {
+    padding: 1.5rem 1rem;
+  }
+  
+  .footer-content {
+    padding: 0 0.5rem;
+  }
+  
+  .newsletter h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .social-links {
+    gap: 15px;
+    margin-top: 1.5rem;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+  
+  header p {
+    font-size: 0.875rem;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  
+  h2 {
+    font-size: 1.35rem;
+  }
+  
+  h3 {
+    font-size: 1.15rem;
+  }
+  
+  .project,
+  .highlight-project {
+    padding: 1rem;
+  }
+}
