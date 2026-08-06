@@ -207,6 +207,8 @@ footer {
 }
 
 .form-submit {
+  display: inline-block;
+  box-sizing: border-box;
   width: 100%;
   margin-top: 1rem;
   background-color: #3498db;
@@ -216,6 +218,8 @@ footer {
   border-radius: 4px;
   font-size: 1rem;
   font-weight: 600;
+  text-align: center;
+  text-decoration: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
